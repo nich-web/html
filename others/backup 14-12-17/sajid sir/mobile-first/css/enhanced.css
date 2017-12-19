@@ -1,0 +1,68 @@
+@media screen and (min-width: 768px) {
+  .container { max-width: 980px ; }
+  h2 {margin-bottom:20px;}
+  .search_container .form-control {border-radius:4px; padding:15px 12px 15px 50px; height:54px; font-size:17px;}
+  .flex-direction-nav {display:block;}
+  .search_btn.sprite, .ico_speach.sprite {width:30px; height:30px; background-size:450px; top:8px;}
+  .ico_speach.sprite {background-position:-40px 0;}
+  header {padding-bottom:20px;}
+  /* Fixing header - start */
+	header.shrink {padding-bottom:10px; }
+	header.shrink .search_container .form-control {height:44px; padding-top:5px; padding-bottom:5px;}
+	header.shrink .search_container .search_btn, header.shrink .search_container .ico_speach {top:3px;}
+	header.shrink .navbar-brand {padding-bottom:0px;}
+	header.shrink .search_container {margin-top:-20px;}
+	/* Fixing header - end */
+  .navbar-brand {font-weight:500; line-height:24px; padding:15px; padding-top:12px;}
+  .head_actns > li {padding:12px 8px}
+  .user_trigger a {display:block !important; margin-left:20px;}
+  .sos_btn > a {display:none !important;}
+  .card {margin:20px 0;}
+  .card.half {width:calc(50% - 10px); padding-right:10px; float:left; margin-right:20px; margin-top:0;}
+  .card.half:nth-child(2n+1) {margin-right:0;}
+  #popularServices .slides.services {width:105% !important;}
+  #popularServices .slides.services li {margin-bottom:20px;}
+  /*.slides.services {width:100% !important;}
+  .slides.services li:nth-child(5), .slides.services li:nth-child(6), .slides.services li:nth-child(7), .slides.services li:nth-child(8) {display:none !important;}*/
+  footer li {border-right:.5px solid #ccc;}
+  footer li:last-child {border-right:none;}
+  footer li a {padding:4px 0; font-weight:400;}
+  footer li a:hover span, footer li a.active span {color:#2D80D2 !important;}
+  footer li a:hover i {filter: brightness(1) invert(0);}
+  footer li a i {display:inline-block;  margin:10px 0 0 0; filter: brightness(1) invert(1);}
+  footer li a span {font-size:15px; text-transform:uppercase; margin:15px 0 0 5px; color:#000;}
+ footer li.foot_home a:hover i, footer li a.active i {filter: brightness(1) invert(0);}
+ .masonry {margin:0 -10px;}
+ .m_col {width:50%; padding:0 10px;}
+ .m_col .card {margin:0 0 20px 0;}
+ 
+ .nav.service_tabs {max-width:500px; margin:20px auto;}
+ .left_con {float:left; width:calc(100% - 300px);}
+ .right_con {float:left; width:280px; margin-left:20px;}
+ .serviceInnerPage li {text-align:left; clear:both; position:relative; padding-bottom:10px; text-align:left !important;}
+ .serviceInnerPage li:last-child {padding-bottom:0;}
+ .serviceInnerPage .service_icon {float:left; margin-right:15px;}
+ .serviceInnerPage .slides.services h3 {font-size:14px;}
+ .serviceInnerPage .service_actn {width:auto; border:none; margin-top:-20px; }
+ .serviceInnerPage .bookmark {position:absolute; right:0; top:10px; border:none;}
+ .serviceInnerPage .service_actn .ratings {margin-left:0;}
+ .serviceInnerPage .flex-direction-nav {display:none;}
+ 
+ .datetimepicker.datetimepicker-dropdown-bottom-right.dropdown-menu {width:300px; left:auto;}
+ .pignose-calendar .pignose-calendar-unit a {width:80%; height:3.5em; padding-top:10px; padding-bottom:10px;}
+ .pignose-calendar .pignose-calendar-unit {height:auto; margin-top:15px;}
+ .pignose-calendar-button-schedule-pin.pignose-calendar-button-schedule-pin-late, .pignose-calendar-button-schedule-pin.pignose-calendar-button-schedule-pin-overtime, .pignose-calendar-button-schedule-pin.pignose-calendar-button-schedule-pin-meetup {display:block; width:80% !important; height:3.5em !important;}
+ .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {border-radius:24px; padding-top:0px; padding-bottom:0px; width:80%; height:2.4em; margin-top:0; font-size:20px; line-height:2.4em;}
+ .flex span {font-size:14px; max-width:120px; margin-left:auto; margin-right:auto; line-height:16px; min-height:34px !important;}
+ .cta-touch {font-size:13px; max-width:145px; padding-left:45px; padding-right:15px;}
+ .cta-touch img {width:25px; margin-top:-12px; left:10px; } 
+ .flex.legends .flex-item {font-size:13px;}
+ .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {width:180px;}
+ .bootstrap-select > .dropdown-toggle {font-size:13px;}
+ .no-search.shrink {padding-bottom:0;}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+.container {max-width:none; width:100%;}
+.cta-touch {padding-left:40px; padding-right:5px;}
+}

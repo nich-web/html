@@ -1,0 +1,201 @@
+.sprite {background-image:url(../images/icon_sprite.png); background-repeat: no-repeat; background-size: 300px;}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi) {
+.sprite {
+    background-image: url(../images/icon_sprite@2x.png);
+  }
+
+footer li a i {
+    background-image: url(../images/footer_sprite@2x.png);
+  }
+}
+
+body {font-size:13px; font-family: 'Roboto', sans-serif; font-weight:300; background:#EFEFEF; color:#000; padding-bottom:50px;}
+.container { padding-right: 10px; padding-left: 10px;}
+a {transition:all .3s ease-in-out;}
+a:hover {text-decoration:none;}
+ul, ul li {margin:0; padding:0; list-style:none;}
+h2 {color:#34659E; font-weight:700; font-size:16px; margin:0 0 15px 0;}
+.h1 a, h2 a, h3 a, h4  {color:inherit;}
+header {background:#34659E; padding-top:5px; padding-bottom:10px; position:fixed; top:0; left:0; z-index:99; width:100%; transition:all .2s ease-in-out;}
+header nav {display:inline-block; width:100%;}
+/* Fixing header - start */
+header.shrink .search_container .form-control {height:34px; padding-top:5px; padding-bottom:5px;}
+header.shrink .search_container .search_btn, header.shrink .search_container .ico_speach {top:4px;}
+header.shrink .search_container {margin-top:-10px;}
+/* Fixing header - end */
+header a {color:#fff;}
+.nav>li>a {padding:0px;}
+.nav>li {display:inline-block; padding:10px 5px;}
+.head_actns {float:right; }
+.head_actns > li {display:inline-block; padding:8px 5px;}
+.head_actns li > a {padding:0; display:block;}
+.navbar-brand {font-size:15px; line-height:22px; color:#fff; padding:10px;}
+.navbar-brand img {width:24px; float:left; margin-right:8px;}
+.sos_btn > a {border-radius:50px; background-color:#DB4A39; background-position:-75px 0; width:26px; height:26px; box-shadow:0 0 4px rgba(0,0,0,.6);}
+.sos_btn > a:hover {background-color:#DB4A39;}
+.notification {position:relative;}
+.notification > a {border-radius:50px; background-color:#fff; background-position:-50px 0; width:26px; height:26px;}
+.notification .notif_count {position:absolute; top:0px; right:-6px; background:#DB4A39; color:#fff; border-radius:50%; font-weight:500; font-size:10px; padding:3px 5px; z-index:2;}
+.user_trigger {}
+.user_trigger a {border-radius:50px; background-color:#fff; background-position:-100px 0; width:26px; height:26px; display:none !important;}
+.search_container {position:relative; z-index:1; clear:both; transition:all .2s ease-in-out;}
+.search_container .form-control {background:#fff; border-radius:10px; border:none; padding:10px 12px 10px 30px; height:44px; transition:all .2s ease-in-out;}
+.search_btn {width:20px; height:20px; position:absolute; left:5px; top:10px; background-color:transparent; border:none; transition:all .2s ease-in-out;}
+.ico_speach {width:20px; height:20px; position:absolute; right:10px; top:10px; background-position:-30px 0; transition:all .2s ease-in-out;}
+.card {background:#fff; box-shadow:0 1px 3px rgba(0,0,0,.4); padding:18px; border-radius:4px; margin:5px 0; width:100%;}
+.m_col {width:100%; }
+.ico_done {width:32px; height:32px; background:#108A8B; padding:8px 5px; border-radius:50%;}
+.flex-item p {font-size:14px; font-weight:400; line-height:18px;}
+.table.regularize {margin:0;}
+.table.regularize > thead > tr > th {font-weight:300; font-size:10px; border-bottom:none; padding-left:0;}
+.table.regularize > tbody > tr > td {font-weight:400; font-size:13px; border:none; padding-left:0;}
+.table.attendence-table > thead > tr > th, .table.attendence-table > tbody > tr > td {padding-left:0; vertical-align:middle;}
+.table.attendence-table > tbody > tr > td:last-child {padding-right:0;}
+.attendence-table input[type="checkbox"] + label + label {padding-left:10px; font-weight:400; margin-bottom:0; }
+.calculate_hours {position:relative; font-size:11px; color:#666; text-align:center; margin:15px 0 ;}
+.calculate_hours span {background:#fff; padding:0 5px; position:relative; z-index:1;}
+.calculate_hours::after {content:''; height:1px; width:100%; background:#333; position:absolute; top:50%; left:0;}
+.regularized_summary {font-size:14px;}
+.regularized_summary .row {padding-top:7px; padding-bottom:7px;}
+.txt_red {color:#D0455D;}
+.txt_green {color:#108A8B;}
+.mt_10 {margin-top:10px;}
+.btn-primary {background-color:#4282CB; border-color:#4282CB;}
+.rate_it {display:block; clear:both;}
+.ratings p {font-size:12px; color:#666;}
+
+
+/* For star rating start */
+.rate {cursor:pointer; }
+.rate, .rate-base-layer, .rate-hover-layer { color: #F5A623;  }
+.rate_it > span {float:left; margin:10px 10px 0 0;}
+.rate_it .rate {font-size:26px; float:left;}
+.rating .rate {font-size:13px; margin:-2px 7px 0 0; position:relative;}
+.rating {position:relative;}
+.rating:after {content:" "; background:rgba(0,0,0,0); left:0; right:0; top:0; bottom:0; z-index:99999; position:absolute;}
+/* For star rating end */
+
+/* For News slider (news slider) - start */
+.flexslider {border:none; background:none; margin:0;}
+.slides.news li {border:.5px solid #ddd; margin:0 20px 0 0; border-radius:3px;}
+#myFavouritesSlider .slides.services {width:105% !important;}
+#myFavouritesSlider .slides.services li {margin-bottom:20px;}
+.slides.news h3 {font-size:13px; font-weight:400; padding:10px 5px 5px 10px; margin:0; min-height:45px;}
+.flex-direction-nav, .flex-control-paging {display:none;}
+.flex-direction-nav a.flex-next::before, .flex-direction-nav a.flex-prev::before {content:'';}
+.flexslider .flex-direction-nav a.flex-prev, .flexslider .flex-direction-nav a.flex-next {opacity:1; font-size:0; background-color:rgba(0,0,0,.8); border-radius:50%; background-image:url(../images/flex_nav_sprite.png); background-size:40px; top:40%;}
+.flexslider.serviceSlider .flex-direction-nav a.flex-prev, .flexslider.serviceSlider .flex-direction-nav a.flex-next {background-color:transparent; filter: brightness(1) invert(1); top:30%;}
+.flexslider.serviceSlider .flex-direction-nav a.flex-prev {left:-18px;}
+.flexslider.serviceSlider .flex-direction-nav a.flex-next {right:-18px;}
+.flexslider .flex-direction-nav a.flex-prev {left:10px; background-position:0 -40px;}
+.flexslider .flex-direction-nav a.flex-next {right:10px; background-position:0 0;}
+#popularServices .flex-direction-nav a.flex-prev, #popularServices .flex-direction-nav a.flex-next {display:none;}
+/* For News slider - end */
+
+/* Services slider - start */
+.no_slider li { text-align:center; width:31%; display:inline-table; margin-left:.5%; margin-right:.5%; margin-bottom:20px;}
+.no_slider h3 {font-size:13px; font-weight:400; padding:10px 5px 5px 10px; margin:0; min-height:45px;}
+.slides.services li { text-align:center; }
+.slides.services h3 {font-size:12px; font-weight:400; padding:10px 5px 5px 10px; margin:0; min-height:45px;}
+.service_icon {width:52px; height:52px; background-image:url(../images/services_icon_sprite.png); background-size:490px 104px; display:block; margin:0 auto;}
+.service_icon.medical_service {background-position:0 0;}
+.service_icon.attendance_service {background-position:-62px 0;}
+.service_icon.pay_service {background-position:-124px 0;}
+.service_icon.visitor_pass {background-position:-186px 0;}
+.service_icon.goal_plan {background-position:-248px 0;}
+.service_icon.book_flight {background-position:-310px 0;}
+.service_icon.my_career {background-position:-372px 0;}
+.service_icon.apply_leave {background-position:-434px 0;}
+.service_icon.book_cab {background-position:0 -52px;}
+.service_icon.browes_catalogue {background-position:-62px -52px;}
+.service_icon.learning_reports {background-position:-124px -52px;}
+.service_actn {border:.25px solid #ddd; float:left; width:100%;}
+.bookmark {float:right; width:34px; height:36px; background:url(../images/ico_bookmark.png) no-repeat; background-size:34px; border-left:.25px solid #ddd; background-position:0 0;}
+.bookmark.bookmarked { background-position:0 -36px;}
+.service_actn .ratings {overflow:hidden; text-align:left; font-size:11px; margin:6px 0 0 6px;}
+.service_actn .rating_stars, .service_actn .stars_fill {background:url(../images/ico_stars.png) repeat-x; background-size:11px; height:11px; background-position:0 -11px; width:55px;}
+.service_actn .stars_fill {background-position:0 0; float:left;}
+.service_actn .rating_stars.one .stars_fill {width:20%;}
+.service_actn .rating_stars.two .stars_fill {width:40%;}
+.service_actn .rating_stars.three .stars_fill {width:60%;}
+.service_actn .rating_stars.four .stars_fill {width:80%;}
+.service_actn .rating_stars.one .stars_fill {width:100%;}
+/* Services slider - end */
+
+/* Overwriting services tabs - start */
+.nav.service_tabs {display:table; border:.5px solid #2D80D2; border-radius:4px; width:100%; text-align:center; margin:5px 0; overflow:hidden;}
+.nav.service_tabs > li {display:table-cell; text-align:center; padding:0; border-right:.5px solid #2D80D2; float:none; width:33.33%;}
+.nav.service_tabs > li:last-child {border:none;}
+.nav.service_tabs > li > a {padding:8px 15px; color:#2D80D2; background:#fff;}
+.nav.service_tabs > li.active > a {background:#2D80D2; color:#fff;}
+/* Overwriting services tabs - end */
+
+/* Overwriting Date picker - start */
+.select_date_con {margin-top:20px;}
+.select_date_con .input-group[class*="col-"] {padding-left:15px; padding-right:15px; float:left;}
+.select_date_con .input-group-addon {background:none; border:none; border-bottom:1px solid rgba(74, 144, 226, 0.6); border-radius:0;} .datetimepicker-dropdown-bottom-right::after, [class*=" datetimepicker-dropdown"]::after,  .datetimepicker-dropdown-bottom-right::before  {display:none !important; border:none !important;}
+.datetimepicker.datetimepicker-dropdown-bottom-right.dropdown-menu {width:calc(100% - 50px); left:25px !important;}
+.datetimepicker table {width:100%;}
+.datetimepicker-days {padding-top:5px; }
+.datetimepicker-days .table-condensed, .datetimepicker td, .datetimepicker th {font-family: 'Roboto', sans-serif; font-weight:400;}
+.datetimepicker td {font-weight:700;}
+.datetimepicker table tr td.old, .datetimepicker table tr td.new, .datetimepicker table tr td.day  {background:#ECF0F5; border:10px solid #fff;}
+ .datetimepicker table tr td.active {background:#C14F5F !important; border:10px solid #fff !important; border-radius:50% !important;} .datetimepicker table tfoot {display:none !important;}
+ .glyphicon-calendar::before {content:''; }
+ .glyphicon-calendar {background:url(../images/ico_datepicker.png) no-repeat; background-size:100%; margin-top:20px;}
+ .input-group-addon {vertical-align:middle;}
+ .form-group label {font-weight:300; margin-bottom:0;}
+/* Overwriting Date picker - end */
+
+
+/* Overwriting calendar css - start */
+.pignose-calendar {font-family: 'Roboto', sans-serif;}
+.pignose-calendar .pignose-calendar-unit a {background:#ECF0F5; color:#333 !important; border-color:#ECF0F5 !important; }
+.pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sat a, .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sun a  {background:#fff; color:#333 !important; border-color:#108A8B !important;}
+.pignose-calendar .pignose-calendar-unit.marker a {color:#fff !important; background:none;}
+.pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a {color:#333 !important;}
+.brown-legend {border-color: #BF5900; background: #BF5900;}
+.dark-blue-legend {border-color: #006690; background: #006690;}
+.brown-legend, .dark-blue-legend {border-radius: 2px; width: 15px; height: 15px; display: inline-block; margin-left: -22px;
+margin-right: 6px;
+vertical-align: top;}
+.cta-touch img {width:15px;}
+/* Overwriting calendar css - end */
+
+/* Custom Select box - start */
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {width:95px; margin-right:-10px;}
+.bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {color:#333;}
+.bootstrap-select > .dropdown-toggle {padding-left:0; padding-right:20px;  border:none; color:#333; font-size:11px;}
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {background:#fff; border:none;}
+/* Custom Select box - end */
+
+/* Footer - start */
+footer {background:#fafafa; position:fixed; bottom:0; left:0; width:100%; border-top:1px solid #DDD;}
+footer li {float:left; text-align:center; width:20%;}
+footer li a {width:100%; color:#A4AAB3; font-size:11px; display:block;}
+footer li a span {display:inline-block; vertical-align:top;}
+footer li a:hover {color:#2D80D2; text-decoration:none;}
+footer li a i {width:30px; height:30px; background-image:url(../images/footer_sprite@2x.png); background-repeat:no-repeat; background-size:150px 60px; display:block; margin:2px auto;}
+footer li.foot_home a i {background-position:0 0;}
+footer li.foot_home a:hover i, footer li.foot_home a.active i {background-position:0 -30px;}
+footer li.foot_services a i {background-position:-30px 0;}
+footer li.foot_services a:hover i, footer li.foot_services a.active i {background-position:-30px -30px;}
+footer li.foot_dashboard a i {background-position:-60px 0;}
+footer li.foot_dashboard a:hover i, footer li.foot_dashboard a.active i {background-position:-60px -30px; color:#2D80D2;}
+footer li.foot_communities a i {background-position:-90px 0px;}
+footer li.foot_communities a:hover i {background-position:-90px -30px;}
+footer li.foot_more a i {background-position:-120px 0;}
+footer li.foot_more a:hover i ,footer li.foot_more a.active i {background-position:-120px -30px; color:#2D80D2;}
+footer li.foot_home a.active, footer li.foot_services a.active, footer li.foot_dashboard a.active, footer li.foot_communities a.active, footer li.foot_more a.active {font-weight:bold; color:#2D80D2;}
+/* Footer - end */
+
+
+
+
+/* Remove
+.calendar .pignose-calendar-body .pignose-calendar-row:nth-child(2) .pignose-calendar-unit:nth-child(3) a, .calendar .pignose-calendar-body .pignose-calendar-row:nth-child(3) .pignose-calendar-unit:nth-child(4) a  {background:#C14F5F ; border:none; color:#fff;}
+.calendar .pignose-calendar-body .pignose-calendar-row:nth-child(3) .pignose-calendar-unit:nth-child(5) a, .calendar .pignose-calendar-body .pignose-calendar-row:nth-child(4) .pignose-calendar-unit:nth-child(4) a  {background:#4A90E2 ; border:none; color:#fff;}
+.calendar .pignose-calendar-body .pignose-calendar-row:nth-child(5) .pignose-calendar-unit:nth-child(2) a {background:#BF5900 ; border:none; color:#fff;} */
+

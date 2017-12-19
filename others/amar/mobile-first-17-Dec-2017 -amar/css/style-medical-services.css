@@ -1,0 +1,459 @@
+
+/* Overwriting services tabs - start */
+.beta_service_tabs {display:table; border:1px solid #2D80D2; border-radius:0px; width:100%; text-align:center; margin:5px 0; overflow:hidden;}
+.beta_service_tabs > li {display:table-cell; text-align:center; padding:0; border-right:1px solid #2D80D2; float:none; }
+.beta_service_tabs > li:last-child {border:none;}
+.beta_service_tabs > li > a {padding:8px 15px; color:#2D80D2; background:#fff;}
+.beta_service_tabs > li.active > a {background:#2D80D2; color:#fff;}
+/* Overwriting services tabs - end */
+
+.beta .form-control {
+    -webkit-box-shadow: none !important;
+    box-shadow: none!important;
+    -webkit-transition: none!important;
+    -o-transition: none!important;
+    transition: none!important;
+}
+
+.bootstrap-select > .dropdown-toggle {
+  font-family: 'Roboto' !important;
+	font-size: 1em !important;
+}
+
+
+.beta_medical_service_icon {
+    width: 52px;
+    height: 52px;
+    background-image: url(../images/medical-services-ico.png);
+	background-size: 60px 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.beta_mt_18 {
+    margin-top: 18px;
+}
+
+.beta_mt_30 {
+    margin-top: 30px;
+}
+
+
+.beta_year {
+   float: left;
+}
+.beta_year-value {
+   float: right;
+	width: 70%;
+}
+
+.glyphicon.glyphicon-search {
+    background: url(../images/search-icon.png) no-repeat;
+        background-size: auto auto;
+    background-size: auto auto;
+    background-size: auto auto;
+    background-size: 100%;
+    margin-top: 22px !important;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+/* redial_wrap */
+
+.beta_redial_wrap {
+	width:100%;
+ box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.beta_redial_wrap .radio_buttons {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+	margin-right: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	display: inline;
+	line-height: 30px;
+	padding-top: 3px;
+	  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+
+	
+}
+
+.beta_redial_wrap .radio_buttons .middle-text{
+	line-height: 30px;
+	padding: 20px;
+
+}
+	
+
+
+/* Hide the browser's default radio button */
+.beta_redial_wrap .radio_buttons input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.beta_redial_wrap .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.beta_redial_wrap  .radio_buttons:hover input ~ .checkmark {
+	background-color: #2196F3;
+}
+
+/* When the radio button is checked, add a blue background */
+.beta_redial_wrap  .radio_buttons input:checked ~ .checkmark {
+    background-color: rgba(74, 144, 226, 0.38);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.beta_redial_wrap .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.beta_redial_wrap  .radio_buttons input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.beta_redial_wrap .radio_buttons .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #4a90e2;
+}
+
+
+.beta_redial_wrap .form-control {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #fff !important;
+	border-radius: 0px!important;
+	border-top-width: none !important;
+	border-right-width: none !important;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #fff !important;
+	border-right-color: #fff !important;
+	border-bottom-color: #06F !important;
+	background-color: #FFF !important; 
+	box-shadow: none !important;
+-moz-box-shadow: none !important;
+-webkit-box-shadow: none !important;
+}
+
+
+
+/* redial_wrap End*/
+
+.beta_appointment_confirmed_wrap {
+	width:100%;
+ 	box-sizing: border-box;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.beta_appointment_confirmed_wrap .col-xs-4{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+.beta_appointment_confirmed_wrap p{
+	font-family: "roboto";
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.beta_appointment_confirmed_wrap .col-xs-4 {
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+.eligible_pme p{
+	text-align: center;
+}
+
+
+.beta_drop {
+	  font-family: 'Roboto' !important; 
+	font-style: normal !important; 
+  font-weight: 300 !important; 
+	border-bottom: 1px solid rgba(74, 144, 226, 0.6);
+}
+
+
+
+.beta_drop .form-control {
+    border: 1px solid #fff;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+	text-align:left;
+	
+}
+
+.beta_drop .form-control:focus {
+    border-color: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.beta_sm_lg-button .btn-group-lg > .btn, .btn-lg {
+    font-size: 1em;
+	font-weight: 400;
+	color:#fff;
+	background-color:#4282CB;
+	border-radius:4px;
+  	font-family: 'Roboto';
+}
+
+
+.calender_icon_wrap span
+{ font-size: 13px;}
+
+.calender_icon
+{width: 30px;
+margin-right: 10px;}	
+	
+	
+.glyphicon.glyphicon-time {
+    background: url(../images/clock-ico.png) no-repeat;
+        background-size: auto auto;
+    background-size: 100%;
+    margin-top: 23px !important;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.glyphicon.glyphicon-map {
+    background: url(../images/map-icon.png) no-repeat;
+        background-size: auto auto;
+    background-size: auto auto;
+    background-size: 100%;
+    margin-top: 22px !important;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+
+.beta_grey_bg{background-color: #f5f5f5}
+
+
+.beta_edit_icon {
+    background: url(../images/edit-ico.png) no-repeat top center;
+        background-size: auto auto;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: 100%;
+}
+
+
+.beta_close_icon {
+    background: url(../images/close-ico.png) no-repeat top center;
+        background-size: auto auto;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: 100%;
+}
+
+.beta_report-noti_icon {
+    background: url(../images/report-noti.png) no-repeat top center;
+        background-size: auto auto;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: 100%;
+}
+
+
+
+.time_slider .time_slot {
+  
+		text-align: center !important;
+height: 32px;
+	padding-top: 6px;
+    /* font-weight: 300; */
+}
+
+.time_slider .time_slot1 {
+  text-align: center !important;
+}
+
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    font-size: 15px;
+	margin-top: 5px;
+	margin-left: 1px;
+	margin-right: 2px;
+}
+
+.tm_no{
+	margin-top: -2px !important;
+}
+
+
+.carousel-content {
+    color:black;
+    align-items:center;
+	border-bottom: 1px solid rgba(74, 144, 226, 0.6);
+}
+
+
+.carousel-control.left{background-image:none;
+background-repeat: no-repeat}
+.carousel-control.right{background-image:none;
+background-repeat: no-repeat}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+    font-size: 10px;
+    color: #000;
+    text-align: center;
+   
+}
+
+#text-carousel {
+    width: 100%;
+    height: 8px;
+    padding: 0px;
+}
+.beta_notifi1_wrap{
+	position: relative;
+	
+	}
+.beta_notifi1{
+	position: absolute;
+	right: 10px;
+	top: 14px;
+	z-index:10;
+	}
+
+.beta_rate_submit_wrap{
+	position: relative;
+	
+	}
+
+.beta_rate_submit{
+	position: absolute;
+right: 17px;
+top: 95px;
+z-index: 10;
+	border-radius: 0px!important;
+	}
+
+.select-width{ width:100% !important;}
+
+
+.beta_input_tm29 {
+	margin-top:  29px !important;
+}
+
+.beta_pme_schedul {
+	margin: 0 auto !important;
+  width: 50px;
+  height: 70px;
+	
+}
+
+
+
+
+
+@media screen and (max-width: 768px) 
+{
+
+.carousel-control.left {
+    margin-top: 0px;
+}
+.carousel-control.right {
+    margin-top: 0px;
+}	
+	
+.glyphicon.glyphicon-time {
+    margin-top: 19px !important;
+}
+	
+.time_slider .input-group-addon {
+    padding: 6px 1px;
+   
+}
+	
+.time_slider .time_slot {
+  
+		text-align: center !important;
+height: 28px !important;
+	padding-top: 6px;
+    /* font-weight: 300; */
+}
+	
+.beta_redial_wrap .radio_buttons {
+    margin-right: 7px;
+
+}
+.glyphicon.glyphicon-time {
+    margin-top: 18px !important;
+}
+	
+.beta_rate_submit{
+	position: absolute;
+right: 17px;
+top: 78px;
+z-index: 10;
+	}
+.col-xs-3 {
+    width: 33%;
+}	
+
+}
+
+.select-width{ width:100% !important;}
+
+  /* END MEDIA  */
+
+
+
+
+
+
+
+
+
+
+
+
+

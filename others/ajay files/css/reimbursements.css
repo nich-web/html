@@ -1,0 +1,134 @@
+/* Overwriting services tabs - start */
+
+.beta_service_tabs {
+    display: table;
+    border: 1px solid #2D80D2;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.beta_service_tabs>li {
+    display: table-cell;
+    text-align: center;
+    padding: 0;
+    border-right: 1px solid #2D80D2;
+    float: none;
+}
+
+.beta_service_tabs>li:last-child {
+    border: none;
+}
+
+.beta_service_tabs>li>a {
+    padding: 8px 15px;
+    color: #2D80D2;
+    background: #fff;
+}
+
+.beta_service_tabs>li.active>a {
+    background: #2D80D2;
+    color: #fff;
+}
+
+
+/* Overwriting services tabs - end */
+
+
+/* alpha */
+
+.alpha_group-attachment {
+    display: block;
+    text-align: center;
+}
+
+.alpha_group-attachment .btn-primary {
+    padding: 5px 40px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.btn-primary.light-orange {
+    background: #f5a623;
+}
+
+.btn-primary.light-green {
+    background: #5caf5f;
+}
+
+.btn-primary.no-border {
+    border: none;
+}
+
+.alpha_scan {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/ico_scan.png) no-repeat 0 0;
+    background-size: contain;
+}
+
+
+/* overriding global card */
+
+.card {
+    position: relative;
+}
+
+
+/* overriding global card */
+
+.alpha_form-footer {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #4282CB;
+}
+
+.alpha_form-footer a {
+    display: inline-block;
+    width: 50%;
+    padding: 15px 20px;
+    color: #4282CB;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+    border: none;
+}
+
+.alpha_form-footer .btn-primary.btn-left {
+    border-radius: 0 0 0 4px;
+}
+
+.alpha_form-footer .btn-primary.btn-right {
+    border-radius: 0 0 4px 0;
+}
+
+.alpha_form-footer .btn-primary.active {
+    color: #ffffff;
+    background: #4282CB;
+}
+
+.alpha_no-margin-top {
+    margin-top: 0;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .alpha_group-attachment .btn-primary {
+        padding: 5px 10px;
+        margin-right: 5px;
+    }
+    .alpha_form-footer a {
+        padding: 15px 10px;
+    }
+    .card h4 {
+        font-size: 1em;
+    }
+}

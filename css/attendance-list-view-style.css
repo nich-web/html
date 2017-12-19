@@ -1,0 +1,422 @@
+body{font-family: 'Roboto', sans-serif;}
+
+.alpha-ri{max-width: 100%;}
+
+.alpha-list-view-main-container{
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top:20px;
+}
+
+.alpha-first-block{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-left-date-slider{
+	width:160px;
+	max-width:100%;
+	display: inline-block;
+	vertical-align: top;
+	height: auto;
+/*	margin-right:5%;*/}
+
+.alpha-right-month-week-section{
+	width:175px;
+	max-width:100%;
+	float: right;
+	vertical-align: top;
+	text-align: left;
+	text-align: right;
+}
+.alpha-month-week-icon{
+	width:85px;
+	max-width: 100%;
+	height:auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-two-icon-block{
+	width:34px;
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px 10px;
+}
+.alpha-calender-icon{
+	width:17px;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	vertical-align: top;
+}
+.alpha-list-icon{
+	width:17px;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	vertical-align: top;
+}
+.alpha-list-click-icon{
+	width:20px;
+	width:100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-second-block{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+}
+.alpha-reminder-icon{
+	margin-right:10px;
+	margin-top: -1px;
+}
+/*.alpha-btn-primary{
+	background-color: #006690;
+	border-color: #006690;
+}*/
+
+.alpha-btn-reminder{
+	width:200px;
+	max-width:100%;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-work-calender{
+	width:168px;
+	max-width:100%;
+	height: auto;
+	float: right;
+	margin-top:10px;
+}
+.alpha-third-block{
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top:25px;
+}
+.alpha-first-click-info{
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 15px;
+}
+
+.alpha-row{
+	width:100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 30px;
+}
+.alpha-day{
+	width:35px;
+	max-width: 100%;
+	height:auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-red-text{
+	color:#c24f60;
+}
+.alpha-red-bg{
+	background-color:#c24f60;
+}
+.alpha-bold-text{
+	font-weight:500;
+}
+
+.alpha-day .text{
+	font-size:25px;
+	color:#4b4b4b;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.alpha-date{
+	width: 10%;
+	height: auto;
+	padding:7px 13px;
+	display: inline-block;;
+	vertical-align: top;
+	border:2px solid #108a8b;
+	border-radius: 4px;
+}
+
+.alpha-date .text{
+	color:#4a4a4a;
+	font-weight:300;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+
+.alpha-date-red-bg{
+	width:10%;
+	height: auto;
+	padding:7px 13px;
+	display: inline-block;;
+	vertical-align: top;
+	border:2px solid #c24f60;
+	border-radius: 4px;
+	background-color: #c24f60
+}
+
+.alpha-date-red-bg .text{
+	color:#fff;
+	font-weight:300;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+.alpha-date-grey-bg{
+	width:10%;
+	height: auto;
+	padding:7px 13px;
+	display: inline-block;;
+	vertical-align: top;
+	border:2px solid #eceff4;
+	border-radius: 4px;
+	background-color: #eceff4
+}
+
+.alpha-date-grey-bg .text{
+	color:#4a4a4a;
+	font-weight:300;
+	text-align:center;
+	font-size:20px;
+	font-weight:500;
+}
+
+.alpha-holiday-name{
+	width:300px;
+	max-width:100%;
+	height:auto;
+	display: inline-block;
+	vertical-align: top;
+	margin:0px 35px;
+}
+
+.alpha-holiday-name .text{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	color:#010101;
+	font-weight:400;
+	position:relative;
+	top:-5px;
+}
+
+.alpha-caleder-date-icon{
+	width:150px;
+	max-width:100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.alpha-icon1{
+	width: 52px;
+	max-width: 100%;
+	height:auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+.alpha-icon2{
+	width: 52px;
+	max-width: 100%;
+	height:auto;
+	display: inline-block;
+	vertical-align: top;
+}
+.alpha-weekly-hours-calculated{
+	height:auto;
+	margin-top:15px;
+	text-align:center;
+}
+.alpha-weekly-hours-calculated span{
+	display: inline-block;
+  	position: relative;
+  	font-size:20px;
+}
+.alpha-weekly-hours-calculated span:before,
+.alpha-weekly-hours-calculated span:after {
+  content: "";
+  position: absolute;
+  height: 15px;
+  border-bottom: 1px solid #000;
+  top: 0;
+  width: 50px;
+}
+
+.alpha-weekly-hours-calculated span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.alpha-weekly-hours-calculated span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width:360px) and (min-width: 320px) {
+	.ri{
+		max-width:100%;
+	}
+	.alpha-day{
+		width:16px;
+	}
+	.alpha-left-date-slider{
+		width:45%;
+	}
+	.alpha-two-icon-block{
+		margin:0px;
+	}
+	.alpha-right-month-week-section {
+    	width: 148px;
+	}
+	.alpha-work-calender{
+		float: left;
+	}
+	.alpha-date {
+    	width: 7%;
+    	padding:0px;
+	}
+	.alpha-date-red-bg {
+    	width: 7%;
+    	padding:0px;
+	}
+	.alpha-date-grey-bg {
+    	width: 7%;
+    	padding:0px;
+	}
+	.alpha-day .text{
+		font-size:18px;
+	}
+	.alpha-date .text{
+		font-size:13px;
+	}
+	.alpha-holiday-name{
+		width: 40%;
+		margin:0px 10px;
+	}
+	.alpha-holiday-name .text{
+		font-size:12px;
+	}
+	.alpha-icon1{
+		margin-right: 0px;
+	}
+	.alpha-caleder-date-icon {
+    	width: 108px;
+	}
+	.alpha-weekly-hours-calculated span{
+		font-size:12px;
+	}
+	.alpha-weekly-hours-calculated span::before, .alpha-weekly-hours-calculated span::after{
+		width:30px;
+		height:9px;
+	}
+}
+@media only screen and (max-width:453px) and (min-width: 361px) {
+	
+	.alpha-day {
+    width: 16px;
+}
+	.alpha-date{
+		width:7%;
+		padding:0px;
+	}
+	.alpha-date-red-bg {
+		width:7%;
+		padding:0px;
+	}
+	.alpha-date-grey-bg {
+		width:7%;
+		padding:0px;
+	}
+	.alpha-holiday-name{
+		width:38%;
+		margin:0px 15px;
+	}
+	.alpha-caleder-date-icon{
+		width:125px;
+	}
+	.alpha-holiday-name .text{
+		font-size:12px;
+	}
+	.alpha-day .text{
+		font-size:18px;
+	}}
+
+@media only screen and (max-width: 599px) and (min-width: 454px) {
+	.alpha-date-red-bg {
+	    width: 8%;
+	    height: auto;
+	    padding: 3px 9px;
+	}
+	.alpha-date{
+	     width: 8%;
+	    height: auto;
+	    padding: 3px 9px;
+	}
+	.alpha-date-grey-bg {
+	    width: 8%;
+	    height: auto;
+	    padding: 3px 9px;
+	}
+	.alpha-holiday-name{
+		margin:0px 20px;
+		width:46%;
+	}
+	.alpha-holiday-name .text{
+		font-size:16px;
+	}
+	.alpha-holiday-name{
+		margin: 0px 10px;
+	}
+	.alpha-caleder-date-icon {
+    width: 119px;
+}
+}
+
+@media only screen and (max-width: 679px) and (min-width: 600px) {
+	.alpha-holiday-name{
+		margin:0px 20px;
+		width:46%;
+	}
+	.alpha-holiday-name .text{
+		font-size:16px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 767px) {
+	.alpha-holiday-name{
+	width: 30%;
+    margin: 0px 26px;
+	}
+
+	.alpha-holiday-name .text{
+		font-size:16px;
+	}
+	.alpha-caleder-date-icon {
+    width: 125px;
+}
+
+}
+
+@media only screen and (max-width: 1034px) and (min-width: 1024px) {
+	.alpha-holiday-name{
+	width: 60%;
+    margin: 0px 26px;
+	}
+
+	.alpha-holiday-name .text{
+		font-size:16px;
+	}
+	.alpha-caleder-date-icon {
+    width: 125px;
+}

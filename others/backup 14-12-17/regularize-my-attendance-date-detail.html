@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HR as a Service</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-face.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/enhanced.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <header class="no-search">
+        <nav>
+            <span class="navbar-brand" href="#">
+        <a href="javascript:void(0);" class="return-btn"></a>
+        <img src="images/ril_logo.png"> Regularize My Attendance</span>
+            <div class="pull-right">
+                <ul class="head_actns">
+                    <li class="sos_btn">
+                        <a href="#" class="sprite"></a>
+                    </li>
+                    <li class="notification"><span class="notif_count">88</span>
+                        <a href="#about" class="sprite"></a>
+                    </li>
+                    <li class="user_trigger">
+                        <a href="#" class="sprite"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- <div class="container">
+      <div class="search_container">
+        <form action="">
+          <input class="form-control" placeholder="What/who are you looking for?" type="text">
+          <button type="submit" class="search_btn sprite"></button>
+          <i class="ico_speach sprite"></i>
+        </form>
+      </div>
+    </div> -->
+    </header>
+
+    <div class="container">
+        <div class="left_con">
+            <div class="card">
+                <div class="flex">
+                    <div class="flex-item small">
+                        <i class="service_icon attendance_service"></i>
+                    </div>
+                    <div class="flex-item large">
+                        <h4 class="strong">Regularize My Attendance</h4>
+                        <div class="ratings">
+                            <ul>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li></li>
+                            </ul>
+                            <p>(1k votes)</p>
+                        </div>
+                    </div>
+                    <div class="flex-item align-right">
+                        <a href="javascript:void(0);" class="cta-doc"></a>
+                        <a href="javascript:void(0);" class="cta-bookmark"></a>
+                    </div>
+                </div>
+
+                <div class="select_date_con date-detail">
+                    <h6>
+                        Thu, 5 October, 2017
+                    </h6>
+                    <div class="row">
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Recorded Punch-in</label>
+                            <input value="10.30" disabled>
+                        </div>
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Recorded Punch-out</label>
+                            <input value="15.30" disabled>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Shift</label>
+                            <input value="9-Hours" disabled>
+                        </div>
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Shift Type</label>
+                            <input value="Morning" disabled>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Computed Hours</label>
+                            <input value="05.00" disabled>
+                        </div>
+                        <div class="input-group col-xs-6 col-md-6 col-sm-6 form-group">
+                            <label>Shortfall in Hours</label>
+                            <input value="04.00" disabled>
+                        </div>
+                    </div>
+
+                    <div class="select_date_con marT0">
+                        <div class="row">
+                            <div class="input-group date form_time col-xs-6 col-md-6 col-sm-6 form-group" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                <label>Regularize In-Time</label>
+                                <input class="" type="text" value="" placeholder="1 Oct, 2017">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+                            </div>
+                            <div class="input-group date form_time col-xs-6 col-md-6 col-sm-6 form-group" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                <label>Regularize Out-Time</label>
+                                <input class="" type="text" value="" placeholder="31 Oct, 2017">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-group col-xs-12 col-md-12 col-sm-12 form-group">
+                            <label>Regularize Out-Time</label>
+                            <select class="selectpicker full">
+                <option>Select</option>
+                <option>Did not punch while exiting</option>
+              </select>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="align-center"><button class="btn btn-primary mt_10">SUBMIT</button></div>
+            </div>
+        </div>
+
+        <div class="right_con">
+            <div class="card">
+                <h2>RATE THIS SERVICE</h2>
+                <div class="rate_it floatNone clearfix">
+                    <span>Rate</span>
+                    <div class="rate" data-rate-value=""></div>
+                </div>
+            </div>
+            <div class="card">
+                <h2>OTHER USEFUL SERVICES</h2>
+                <div class="flexslider" id="serviceInnerPage">
+                    <ul class="slides services">
+                        <li>
+                            <i class="service_icon book_cab"></i>
+                            <h3>Book A Cab</h3>
+                            <div class="service_actn">
+                                <a href="javascript:void(0)" class="bookmark"></a>
+                                <div class="ratings">
+                                    <div class="rating_stars four">
+                                        <div class="stars_fill"></div>
+                                    </div>
+                                    1k votes
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="service_icon browes_catalogue"></i>
+                            <h3>Browse Catalogue</h3>
+                            <div class="service_actn">
+                                <a href="javascript:void(0)" class="bookmark"></a>
+                                <div class="ratings">
+                                    <div class="rating_stars four">
+                                        <div class="stars_fill"></div>
+                                    </div>
+                                    888 votes
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="service_icon learning_reports"></i>
+                            <h3>Learning Reports</h3>
+                            <div class="service_actn">
+                                <a href="javascript:void(0)" class="bookmark"></a>
+                                <div class="ratings">
+                                    <div class="rating_stars four">
+                                        <div class="stars_fill"></div>
+                                    </div>
+                                    659 votes
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="service_icon apply_leave"></i>
+                            <h3>Apply For Leave</h3>
+                            <div class="service_actn">
+                                <a href="javascript:void(0)" class="bookmark bookmarked"></a>
+                                <div class="ratings">
+                                    <div class="rating_stars four">
+                                        <div class="stars_fill"></div>
+                                    </div>
+                                    529 votes
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li class="foot_home"><a href="index.html"><i class="ico_home"> </i><span>Home</span></a></li>
+                <li class="foot_services"><a href="services.html" class="active"><i class="ico_services"> </i><span>Services</span></a></li>
+                <li class="foot_dashboard"><a href="#"><i class="ico_dashboard"> </i><span>Dashboard</span></a></li>
+                <li class="foot_communities"><a href="#"><i class="ico_community"> </i><span>Communities</span></a></li>
+                <li class="foot_more"><a href="#"><i class="ico_more"> </i><span>More</span></a></li>
+            </ul>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript" src="js/rater.js" charset="utf-8"></script>
+        <script src="js/bootstrap-select.js" defer></script>
+        <script src="js/moment-with-locales.js"></script>
+        <script src="js/bootstrap-datetimepicker.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var mySelect = $('#first-disabled2');
+
+                $('#special').on('click', function() {
+                    mySelect.find('option:selected').prop('disabled', true);
+                    mySelect.selectpicker('refresh');
+                });
+
+                $('#special2').on('click', function() {
+                    mySelect.find('option:disabled').prop('disabled', false);
+                    mySelect.selectpicker('refresh');
+                });
+
+                $('#basic2').selectpicker({
+                    liveSearch: true,
+                    maxOptions: 1
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            //datetime picker js
+            $(document).ready(function() {
+                $('.form_time').datetimepicker({
+                    pickDate: false,
+                    icons: {
+                        time: "glyphicon glyphicon-time",
+                        up: "glyphicon glyphicon-chevron-up",
+                        down: "glyphicon glyphicon-chevron-down"
+                    }
+                });
+
+                // $("#TimeDemo").datetimepicker({
+                //   pickDate: false,
+                //   minuteStepping: 5
+                // })
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+
+                $(".rate").rate();
+
+                // For bookmark icon
+                $(".bookmark").click(function() {
+                    $(this).toggleClass("bookmarked");
+                });
+                // To fix header
+                $(function() {
+                    var shrinkHeader = 70;
+                    $(window).scroll(function() {
+                        var scroll = getCurrentScroll();
+                        if (scroll >= shrinkHeader) {
+                            $('header').addClass('shrink');
+                        } else {
+                            $('header').removeClass('shrink');
+                        }
+                    });
+
+                    function getCurrentScroll() {
+                        return window.pageYOffset || document.documentElement.scrollTop;
+                    }
+                    if ($(window).width() > 768) {
+                        // To add padding from top (Desktop)
+                        $("body").css({
+                            "padding-top": $("header").height() + 25
+                        });
+                        $('#serviceInnerPage').flexslider({
+                            animation: "slide",
+                            animationLoop: false,
+                            itemWidth: 244,
+                            slideshow: false,
+                            itemMargin: 15
+                        });
+                    } else {
+                        // To add padding from top (Mobile)
+                        $("body").css({
+                            "padding-top": $("header").height() + 18
+                        });
+                        $('#serviceInnerPage').flexslider({
+                            animation: "slide",
+                            animationLoop: false,
+                            itemWidth: 100,
+                            slideshow: false,
+                            itemMargin: 15
+                        });
+                    }
+                });
+            });
+        </script>
+</body>
+
+</html>
+
+</html>
